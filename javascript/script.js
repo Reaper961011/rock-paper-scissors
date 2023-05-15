@@ -25,13 +25,13 @@ function playRound(userChoice, computersChoice){
         userWin++;
     } else if (
         (userChoice == "rock" && computersChoice == "scissors") || 
-        (userChoice == "scissors" && computersChoice == "papper") || 
+        (userChoice == "scissors" && computersChoice == "pappr") || 
         (userChoice == "paper" && computersChoice == "rock")
         ){
         userWin++;
     } else if (
         (computersChoice == "rock" && userChoice == "scissors") || 
-        (computersChoice == "scissors" && userChoice == "papper") || 
+        (computersChoice == "scissors" && userChoice == "paper") || 
         (computersChoice == "paper" && userChoice == "rock")
     ){
         computerWin++;
